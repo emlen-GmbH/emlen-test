@@ -1,21 +1,2 @@
-1) render the list of TODO
-2) implement: create, edit, then delete
-3) create validation system
-
-
-1) Render the list of todo
-    -
-
-
-
-//// Goal: MVP per item, then iteration
-
-- Get the list (api call, store)
-    - loader
-    - catch error
-- Display the list
-    - some computation
-- Interface to create new one
-
-
-
+1) Render the list of TODOs (Cf: api/todos)
+2) Create a form to create new ones (every field is mandatory)

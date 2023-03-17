@@ -1,6 +1,7 @@
 <template>
-  <main>
-
+  <main class="todo-app">
+    <h1>TODO app</h1>
+    <div>TODO</div>
   </main>
 </template>
 

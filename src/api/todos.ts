@@ -10,10 +10,18 @@ export const LOCAL_STORAGE_KEY = 'todos'
 function getTodos(): ITodos {
     const savedTodos = localStorage.getItem(LOCAL_STORAGE_KEY)
 
-    return savedTodos ? JSON.parse(savedTodos) : [{
-        icon: 'calendar-app',
-        description: 'Parmesan airedale dolcelatte. Bocconcini camembert de normandie cheese and wine when the cheese comes out everybody\'s happy fondue lancashire feta rubber cheese. Cheese strings jarlsberg feta cut the cheese manchego cheddar babybel pepper jack. Stilton dolcelatte danish fontina cauliflower cheese.'
-    }]
+    return savedTodos ? JSON.parse(savedTodos) : [
+        {
+            icon: 'calendar',
+            iconColor: 'blue',
+            description: 'Parmesan airedale dolcelatte. Bocconcini camembert de normandie cheese and wine when the cheese comes out everybody\'s happy fondue lancashire feta rubber cheese. Cheese strings jarlsberg feta cut the cheese manchego cheddar babybel pepper jack. Stilton dolcelatte danish fontina cauliflower cheese.'
+        },
+        {
+            icon: 'file',
+            iconColor: 'green',
+            description: 'Parmesan airedale dolcelatte. Bocconcini camembert de normandie cheese and wine when the cheese comes out everybody\'s happy fondue lancashire feta rubber cheese. Cheese strings jarlsberg feta cut the cheese manchego cheddar babybel pepper jack. Stilton dolcelatte danish fontina cauliflower cheese.'
+        },
+    ]
 }
 
 function setTodos(todos: ITodos) {

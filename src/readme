@@ -1,0 +1,21 @@
+1) render the list of TODO
+2) implement: create, edit, then delete
+3) create validation system
+
+
+1) Render the list of todo
+    -
+
+
+
+//// Goal: MVP per item, then iteration
+
+- Get the list (api call, store)
+    - loader
+    - catch error
+- Display the list
+    - some computation
+- Interface to create new one
+
+
+

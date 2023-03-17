@@ -1,2 +1,8 @@
-1) Render the list of TODOs (Cf: api/todos)
-2) Create a form to create new ones (every field is mandatory)
+1) Fetch and render the todos (Cf: api/todos)
+    - The first input is a select, allowing to choose an icon amongst 3 (Cf. assets)
+    - The second input is a textArea, allowing to enter a description
+    - The save button allow to save the todo
+    - The delete button allow to remove the todo
+
+2) Create an empty todo at the beginning of the list, allowing to create new todos
+    - On save, if all the fields are completed, a new todo is added at the beginning of the list
